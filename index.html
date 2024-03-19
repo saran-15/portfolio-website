@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portofolio Website - Saran k.v</title>
+    <link rel="stylesheet" href="312.css">
+    <script src="https://kit.fontawesome.com/425da26824.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/logo..png" class="logo" width="170px" height="160px">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Budding Engineer</p>
+                <h1>Hi,I'm <span>Saran K V</span></h1>
+            </div>
+        </div>
+
+    </div>
+    <!-- -----about----- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am currently a student at MCET, pursuing my education while aspiring to build a career as a data analyst. Check out my portfolio website to explore my academic journey and the projects that showcase my skills and passion for data analysis.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('projects')">Projects</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                </div>            
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>Data Analyst</span><br>SQL<br>Excel sheet<br>Python</li>
+                        <li><span>Tools<br></span>
+                            Microsoft Power BI<br>
+                            MS Excel sheet<br>
+                            Tableau
+                    </ul>
+                </div>
+                <div class="tab-contents" id="projects">
+                    <ul>
+                        <li><span>2023</span><br>Amazon web Scraping Using Python</li>
+                        <li><span>2023</span><br>Road Accident Analysis in Power BI</li>
+                        <li><span>2023</span><br>Cricket Data Analytics in Power BI</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2018</span><br>SSLC from Swamy Chidbhavananda Matric.Hr.Sec.School at 77.4%</li>
+                        <li><span>2018-2021</span><br>Diploma from Nachimuthu polytechnic college at 79.8%</li>
+                        <li><span>2021-2024</span><br>EEE Gradute at Dr.Mahalingam College of Engineering and technology at 80%</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------serivices-------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>SQL</h2>
+                    <p>Utilize SQL for comprehensive data analysis tasks including data aggregation, filtering, and manipulation to extract meaningful insights. Perform complex queries involving joins, subqueries, and aggregations to uncover patterns, trends, and anomalies within datasets. Apply statistical functions and techniques to derive actionable conclusions for informed decision-making.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Python</h2>
+                    <p>Python's Pandas library is a powerful tool for data analysis, offering data structures and functions to manipulate and analyze structured data efficiently. It enables tasks such as data cleaning, transformation, and statistical analysis, making it a valuable asset for data professionals in various domains like finance, science, and business.<p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Data Visualization</h2>
+                    <p>Power BI and Tableau are leading data visualization tools that facilitate insightful data analysis. They offer intuitive interfaces for creating interactive, visually appealing dashboards and reports. These tools allow users to visualize data trends, patterns, and insights, enhancing data-driven decision-making for businesses across various industries.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <!------------------------portfolio-------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Project</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/portfolio1.jpg">
+                    <div class="layer">
+                        <h3>Amazon web Scraping Using Python</h3>
+                        <p>Develop a Python-based web scraping solution using pandas to systematically collect product information, customer reviews, and pricing data from Amazon's website. Employ data cleaning and transformation techniques to prepare the scraped data for analysis, enabling the extraction of meaningful insights to drive informed business decisions in the data analyst project.</p>
+                        <a href="#"><i class="fa-solid fa-square-up-right"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/portfolio2.jpg">
+                    <div class="layer">
+                        <h3>Road Accident Analysis</h3>
+                        <p>The objective of the Road Accident Analysis project is to scrutinize daily-life road accidents, encompassing various vehicles such as cars, buses, bikes, and others. By examining accident data, the project aims to discern patterns, frequency, and severity of accidents involving different vehicle types. Through statistical analysis, it seeks to uncover trends regarding factors like location, time of day, weather conditions, and road type contributing to accidents. Ultimately, the project endeavors to offer actionable insights for enhancing road safety measures, informing policy decisions, and promoting public awareness campaigns to mitigate accidents and minimize their impact on communities.</p>
+                        <a href="https://github.com/saran-15/road-accident-analysis-/tree/main"><i class="fa-solid fa-square-up-right"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/portfolio3.jpg">
+                    <div class="layer">
+                        <h3>Cricket Data Analytics</h3>
+                        <p>The project aims to leverage Power BI for comprehensive data analysis of Cricket World Cup statistics, with a specific focus on evaluating the performance of both bowlers and batsmen. By utilizing advanced analytics techniques, the objective is to identify top performers based on key metrics such as total wickets taken and runs scored, and subsequently assign appropriate valuations to these players. This analysis will provide valuable insights for team selection strategies and player pricing, ultimately enhancing decision-making processes in cricket management and fantasy leagues.</p>
+                        <a href="https://github.com/saran-15/Cricket-data-analytics"><i class="fa-solid fa-square-up-right"></i></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+<!------------------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left"> 
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>Contact Email : k.v.saran0066@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>Contact Number: 9688954674</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/saran-k-v-2123b1263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/__saran_27?igsh=MXR2cjh0d2RwNWEwMg=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/saran-15"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="image/resume_saran.pdf"Download class="btn btn2">Download CV</a>
+            </div>
+                <div class="contact-right">
+                    <form name='submit-to-google-sheet'>
+                        <input type="text"  name="Name"  placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+          
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © Saran K.V <i class="fa-solid fa-sparkles"></i>Python,SQL,Data Visualization</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+        <script>
+  const scriptURL ='https://script.google.com/macros/s/AKfycbzgdEn-5Ejw-fvByhuTwf96h0KdbaymjN7yRujM3RyG39IqyyTKzE_JWekb-aUYp-N1/exec'
+  const form = document.froms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success !', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
